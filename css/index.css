@@ -10,12 +10,16 @@ body {
     max-width: 1080px;
     margin:auto;
 }
+.container-fluid {
+    
+    padding-top: 20px;
+    
+}
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    color: #222A2F;
-    
-
+    font-size: 16px!important;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #739169;
@@ -23,8 +27,7 @@ body {
         
 }
 .invisible {    
-    
-    padding-bottom: 70px;
+   padding-bottom: 70px;
 }
 .header-banner {
     display: flex;
@@ -34,6 +37,7 @@ body {
 }
 .header-banner .banner-left {
     display: block;
+    padding-top: 50px;
    
     
 }
@@ -46,27 +50,31 @@ body {
 
 }
 .header-banner .banner-right img{
-    
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
 }
 .header-banner h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 500;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 0 20px 20px 20px;
+    color: #222a2f;
+
 }
 .header-banner p {
+    font-size: 20px;
+    line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-weight: 400;
     text-align: center;
-    padding-bottom: 20px;
+    color: #463f36;
+    padding: 0 30px 0 30px;
 }
 .button {
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     padding: 10px 15px 10px 15px;
     border: 0.1em solid #FFFFFF;
     margin-left: 30px;
@@ -82,7 +90,7 @@ body {
 }
 .button-me {
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     padding: 10px 15px 10px 15px;
     border: 0.1em solid rgb(187, 165, 165);
     margin: 0 0 70px 10px;
@@ -98,7 +106,7 @@ body {
 }
 .about-me {
     background-image: url(../img/fontoo.jpg);
-    padding: 150px 0 50px 0;
+    padding: 90px 0 0 0;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -109,21 +117,18 @@ body {
     background: rgba(0, 0, 0, 0.52);
     display: block;
     max-width: 600px;
-    margin: 0 75px 0 50px;
     padding: 50px 30px 30px 30px;
 }
 .about-me h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 42px;
+    font-size: 34px;
     color: white;
     padding-bottom: 30px;
-    
-
 }
 
 .about-me p {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
 }
 .results {
@@ -135,7 +140,7 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 0;
 }
 
 .results h2{
@@ -170,22 +175,22 @@ body {
 .results-data p{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #fff;
     padding-bottom: 50px;
     
 }
 .useful-tips {
     background-image: url(../img/tips.jpg);
-    height: 800px;
+    padding-bottom: 30px;
 }
 
 .tips h2 { font-family: 'Poppins', sans-serif;
     font-size: 38px;
     color: #FFFFFF;
-    padding-bottom: 30px;
+    padding-top: 30px;
     text-align: center;
-
+    
 }
 
 .tips hr{
@@ -210,26 +215,67 @@ body {
     width: 75%;
     margin-bottom: 50px;
 }
- .button-tips .btn-tips {
-     display: block;
+.btn-tips {
+    display: block;
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    font-size: 18px;
     padding: 10px 15px 10px 15px;
+    font-weight: 600;
     margin: 0 auto 0 auto;
     border: 0.1em solid #FFFFFF;
-    border-radius: 0.12em;
     color: #FFFFFF;
     text-align: center;
-    transition: all 0.7s;
     background-color: #739169;
+    
+    
 }
-.button-tips .btn-tips:hover {
-    color: #000000;
+.btn-tips:hover {
+    color: #FFFFFF;
     background-color: #6c7c0db6;
+    
+}
+
+.carousel-header img {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;    
+}
+
+.carousel-header h2{
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #739169;
+    padding-bottom: 10px;
+}
+
+.carousel-header p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #463f36;
+    padding-bottom: 30px;
+}
+
+.carousel-header a {
+    color: #739169
+}
+.carousel-header hr{
+    color: #739169;
+    width: 30px;
+    height: 2px;
+    background-color: #739169;
+    
+}
+.quotation-mark {
+    font-size: 100px;
 }
 
 
-  
 
 @media (min-width: 768px) {
 .navbar-container {
@@ -257,6 +303,23 @@ body {
   }
 .navbar-nav .text-right {
     text-align: center!important;
+    
+}
+.about-me .about-left{
+    max-width: 550px;
+    padding: 50px 30px 30px 30px;
+    margin-left: 30px;
+}
+.about-me h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: white;
+    padding-bottom: 30px;
+}
+.about-me p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
 }
 .header-banner {
     flex-direction: row;
@@ -274,11 +337,13 @@ body {
 .tips-data {
     padding-top: 30px;
     display: flex;
+    flex: 1;
     flex-direction: row;
-    margin: 0 25px 0 25px;
+    justify-content: space-between;
 }
 .tips-data img{
     width: 450px;
+    padding-left: 20px;
     
 
 }
