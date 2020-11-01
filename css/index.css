@@ -1,59 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-:root {
-    --main-color: black;
-    --accent-color: green;
-    font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); :root {
+    --main-color: black; --accent-color: green; font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+.root {
+    scroll-behavior: smooth;
+
+}
+
 body {
     max-width: 1080px;
-    margin:auto;
+    margin: auto;
 }
+
 .container-fluid {
-    
     padding-top: 20px;
-    
 }
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Poppins', sans-serif;
     font-size: 16px!important;
     text-align: center;
     margin-bottom: 0.5em;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #739169;
     border-bottom: 2px solid #739169;
-        
 }
-.invisible {    
-   padding-bottom: 70px;
+
+.invisible {
+    padding-bottom: 70px;
 }
+
 .header-banner {
     display: flex;
     flex: 1;
     flex-direction: column;
-
 }
+
 .header-banner .banner-left {
     display: block;
     padding-top: 50px;
-   
-    
 }
+
 .header-banner .banner-left img {
     display: block;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
-
 }
-.header-banner .banner-right img{
+
+.header-banner .banner-right img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .header-banner h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
@@ -61,8 +64,8 @@ body {
     text-align: center;
     padding: 0 20px 20px 20px;
     color: #222a2f;
-
 }
+
 .header-banner p {
     font-size: 20px;
     line-height: 1.5;
@@ -72,6 +75,7 @@ body {
     color: #463f36;
     padding: 0 30px 0 30px;
 }
+
 .button {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -84,10 +88,12 @@ body {
     transition: all 0.7s;
     background-color: #739169;
 }
+
 .button:hover {
     color: #000000;
     background-color: #6c7c0db6;
 }
+
 .button-me {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -100,10 +106,12 @@ body {
     transition: all 0.7s;
     background-color: #ffffff;
 }
+
 .button-me:hover {
     color: rgba(85, 78, 78, 0.726);
     background-color: #4d3e3e18;
 }
+
 .about-me {
     background-image: url(../img/fontoo.jpg);
     padding: 90px 0 0 0;
@@ -111,14 +119,16 @@ body {
     background-size: cover;
     display: flex;
     flex: 1;
-    flex-direction: column;    
+    flex-direction: column;
 }
-.about-me .about-left{
+
+.about-me .about-left {
     background: rgba(0, 0, 0, 0.52);
     display: block;
     max-width: 600px;
     padding: 50px 30px 30px 30px;
 }
+
 .about-me h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 34px;
@@ -131,11 +141,12 @@ body {
     font-size: 16px;
     color: white;
 }
+
 .results {
     background-color: #000;
 }
+
 .results .line img {
-    
     display: block;
     width: 50%;
     margin-left: auto;
@@ -143,13 +154,14 @@ body {
     padding: 20px 0 20px 0;
 }
 
-.results h2{
+.results h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 38px;
     color: white;
     padding-bottom: 30px;
     text-align: center;
 }
+
 .results-data {
     display: flex;
     flex: 1;
@@ -157,48 +169,48 @@ body {
     justify-content: space-around;
     margin: 0 70px 0 70px;
     text-align: center;
-
 }
+
 .results-data strong {
     font-family: 'Poppins', sans-serif;
     font-size: 38px;
     color: #739169;
     font-weight: 700;
-    
 }
-.results-data hr{
+
+.results-data hr {
     color: #739169;
     width: 30px;
     height: 2px;
     background-color: #739169;
 }
-.results-data p{
+
+.results-data p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #fff;
     padding-bottom: 50px;
-    
 }
+
 .useful-tips {
     background-image: url(../img/tips.jpg);
     padding-bottom: 30px;
 }
 
-.tips h2 { font-family: 'Poppins', sans-serif;
+.tips h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 38px;
     color: #FFFFFF;
     padding-top: 30px;
     text-align: center;
-    
 }
 
-.tips hr{
+.tips hr {
     color: #739169;
     width: 30px;
     height: 2px;
     background-color: #739169;
-    
 }
 
 .tips-data {
@@ -206,15 +218,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
+
 .tips-data img {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
     margin-bottom: 50px;
 }
+
 .btn-tips {
     display: block;
     font-family: 'Poppins', sans-serif;
@@ -226,13 +238,11 @@ body {
     color: #FFFFFF;
     text-align: center;
     background-color: #739169;
-    
-    
 }
+
 .btn-tips:hover {
     color: #FFFFFF;
     background-color: #6c7c0db6;
-    
 }
 
 .carousel-header img {
@@ -240,10 +250,10 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
-.carousel-header h2{
+.carousel-header h2 {
     font-size: 34px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -264,89 +274,95 @@ body {
 .carousel-header a {
     color: #739169
 }
-.carousel-header hr{
+
+.carousel-header hr {
     color: #739169;
     width: 30px;
     height: 2px;
     background-color: #739169;
-    
 }
+
 .quotation-mark {
     font-size: 100px;
 }
 
-
-
 @media (min-width: 768px) {
-.navbar-container {
-    position: sticky;
-    top: 0;
-    overflow-y: auto;
-    height: 100vh;
-  }
-.navbar-container .navbar {
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    height: 100%;
-  }
-.navbar-container .navbar-collapse {
-    align-items: flex-start;
-  }
-.navbar-container .nav {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-.navbar-container .navbar-nav {
-    flex-direction: column !important;
-  }
-.navbar-nav .text-right {
-    text-align: center!important;
-    
-}
-.about-me .about-left{
-    max-width: 550px;
-    padding: 50px 30px 30px 30px;
-    margin-left: 30px;
-}
-.about-me h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 42px;
-    color: white;
-    padding-bottom: 30px;
-}
-.about-me p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: white;
-}
-.header-banner {
-    flex-direction: row;
-}
-.about-me  {
-    flex-direction: row;
-}
-.results-data  {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-.tips-data {
-    padding-top: 30px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.tips-data img{
-    width: 450px;
-    padding-left: 20px;
-    
+    .navbar-container {
+        position: sticky;
+        top: 0;
+        overflow-y: auto;
+        height: 100vh;
+    }
 
-}
-}
+    .navbar-container .navbar {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+    }
 
+    .navbar-container .navbar-collapse {
+        align-items: flex-start;
+    }
 
+    .navbar-container .nav {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-container .navbar-nav {
+        flex-direction: column !important;
+    }
+
+    .navbar-nav .text-right {
+        text-align: center!important;
+    }
+
+    .about-me .about-left {
+        max-width: 550px;
+        padding: 50px 30px 30px 30px;
+        margin-left: 30px;
+    }
+
+    .about-me h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 42px;
+        color: white;
+        padding-bottom: 30px;
+    }
+
+    .about-me p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+
+    .header-banner {
+        flex-direction: row;
+    }
+
+    .about-me {
+        flex-direction: row;
+    }
+
+    .results-data {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .tips-data {
+        padding-top: 30px;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tips-data img {
+        width: 450px;
+        padding-left: 20px;
+    }
+}
